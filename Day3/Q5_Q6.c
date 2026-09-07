@@ -1,4 +1,4 @@
-//Write a program to convert temperature from Celsius to Fahrenheit.
+//Q5 Write a program to convert temperature from Celsius to Fahrenheit.
 
 #include<stdio.h>
 int main()
@@ -12,7 +12,7 @@ int main()
     printf("Temperature in celsius=%d\n", cel);
     printf("Temperature in fahrenheit=%d\n", fah);
 
-//Write a program to swap two numbers using a third variable.
+//Q6 Write a program to swap two numbers using a third variable.
 
     int a, b, c;
     printf("Enter two numbers");
@@ -24,7 +24,7 @@ int main()
     printf("Before swapping a=%d b=%d\n", b,a);
     printf("After swapping a=%d b=%d\n", a,b);
 
-    
+
     return 0;
 
 }
