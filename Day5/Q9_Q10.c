@@ -4,22 +4,22 @@
 #include<math.h>
 
 int main(){
-    // int P, R , T;
-    // float SI, CI , A;
-    // printf("Enter Principal");
-    // scanf("%d", &P);
-    // printf("Enter Rate");
-    // scanf("%d", &R);
-    // printf("Enter Time");
-    // scanf("%d", &T);
+    int P, R , T;
+    float SI, CI , A;
+    printf("Enter Principal");
+    scanf("%d", &P);
+    printf("Enter Rate");
+    scanf("%d", &R);
+    printf("Enter Time");
+    scanf("%d", &T);
 
-    // SI= (P*R*T)/100;
+    SI= (P*R*T)/100;
 
-    // A=P*pow((1+R/100.0),T);
-    // CI= A-P;
+    A=P*pow((1+R/100.0),T);
+    CI= A-P;
 
-    // printf("Simple interest =%.2f\n", SI);
-    // printf("Compound interest =%.2f\n", CI);
+    printf("Simple interest =%.2f\n", SI);
+    printf("Compound interest =%.2f\n", CI);
 
 
 // Q10 Write a program to input time in seconds and convert it to hours:minutes:seconds format.
