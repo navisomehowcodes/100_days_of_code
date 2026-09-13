@@ -19,8 +19,6 @@ int main(){
 
 //Write a program to input an integer and check whether it is positive, negative or zero using nested if–else.
 
-   
-    
     int n;
 
     printf("Enter number ");
